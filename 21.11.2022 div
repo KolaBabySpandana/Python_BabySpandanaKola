@@ -1,0 +1,12 @@
+//division
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+c=a/b
+print(c)
+print(type(c))
+
+output
+enter number:456
+enter number:6
+76.0
+<class 'float'>
