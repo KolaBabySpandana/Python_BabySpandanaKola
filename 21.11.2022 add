@@ -1,0 +1,12 @@
+//addition of two numbers
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+c=a+b
+print(c)
+print(type(c))
+
+output
+enter number:76
+enter number:87
+163
+<class 'int'>
