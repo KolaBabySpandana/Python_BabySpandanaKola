@@ -1,0 +1,12 @@
+//subtraction of two numbers
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+c=a-b
+print(c)
+print(type(c))
+
+output
+enter number:34
+enter number:45
+-11
+<class 'int'>
