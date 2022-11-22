@@ -1,0 +1,12 @@
+EMI calculation
+p=int(input("enter principal amount:"))
+s=int(input("enter simple interest:"))
+m=int(input("enter total no of months:"))
+emi=(p+s)/m*12
+print("EMI=",emi)
+
+output
+enter principal amount:200
+enter simple interest:1
+enter total no of months:3
+EMI= 804.0
