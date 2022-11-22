@@ -1,0 +1,28 @@
+//read and print of student details
+sno=int(input("student number :"))
+name=input("student name :")
+gender=input("gender :")
+group=input("group name :")
+add=input("student address :")
+ph=int(input("student mobile no :"))
+print("sno :",sno)
+print("sname :",name)
+print("gender :",gender)
+print("group name :",group)
+print("student address :",add)
+print("student mobile no :",ph)
+
+
+output
+student number :1
+student name :ashwin
+gender :male
+group name :mecs
+student address :opp sai baba gudi 
+student mobile no :233424950
+sno : 1
+sname : ashwin
+gender : male
+group name : mecs
+student address : opp sai baba gudi 
+student mobile no : 233424950
