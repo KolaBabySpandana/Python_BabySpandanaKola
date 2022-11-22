@@ -1,0 +1,14 @@
+// swapping without third integer
+a=int(input("enter a="))
+b=int(input("enter b="))
+a=a+b
+b=a-b
+a=a-b
+print("a after swap=",a)
+print("b after swap=",b)
+
+outpuut
+enter a=67
+enter b=80
+a after swap= 80
+b after swap= 67
