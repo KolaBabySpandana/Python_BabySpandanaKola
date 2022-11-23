@@ -1,0 +1,12 @@
+// biggest of two nos
+a=int(input("enter one number:"))
+b=int(input("enter other number:"))
+if a>b:
+ print("a is biggest")
+else:
+ print("b is biggest")
+ 
+ output
+ enter one number:45
+enter other number:78
+b is biggest
