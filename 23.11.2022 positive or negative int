@@ -1,0 +1,10 @@
+// positive or negative integer
+a=int(input("enter one number:"))
+if a>0:
+ print("POSITIVE")
+else:
+ print("NEGATIVE")
+ 
+ output
+ enter one number:-90
+NEGATIVE
