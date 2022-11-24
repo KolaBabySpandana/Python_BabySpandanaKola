@@ -1,0 +1,12 @@
+// relational operators
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+if a>b:
+  print("TRUE")
+else:
+      print("FALSE")
+      
+output     
+enter number:34
+enter number:56
+FALSE
