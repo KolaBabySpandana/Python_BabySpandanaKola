@@ -1,0 +1,28 @@
+// artimetic operations
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+sum=a+b
+sub=a-b
+mul=a*b
+div=a/b
+mod=a%b
+exp=a**b
+flo=a//b
+print('sum=',sum)
+print('sub=',sub)
+print('mul=',mul)
+print('div=',div)
+print('modular=',mod)
+print('expotent=',exp)
+print('float=',flo)
+
+output
+enter number:3
+enter number:3
+sum= 6
+sub= 0
+mul= 9
+div= 1.0
+modular= 0
+expotent= 27
+float= 1
