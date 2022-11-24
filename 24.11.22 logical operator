@@ -1,0 +1,26 @@
+// logical operator
+sno=int(input('enter sno:'))
+sname=input('enter name:')
+group=input("enter group:")
+s1=int(input('s1='))
+s2=int(input('s2='))
+s3=int(input('s3='))
+print('Student no:',sno)
+print('Student name:',sname)
+print('Student group:',group)
+if s1>=35 and s2>=35 and s3>=35:
+    print("PASS")
+else:
+    print('FAIL')
+    
+output
+enter sno:88
+enter name:spandana
+enter group:mecs
+s1=89
+s2=78
+s3=90
+Student no: 88
+Student name: spandana
+Student group: mecs
+PASS
