@@ -1,0 +1,11 @@
+// membership operator
+list1=[2,4,6,8,10,12,14,15,16,18,20]
+n=int(input("enter a number:"))
+if n in list1:
+    print("number is present in the list")
+else:
+    print("number is not present in the list")
+    
+output
+enter a number:3
+number is not present in the list
