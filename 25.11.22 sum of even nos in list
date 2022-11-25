@@ -1,0 +1,10 @@
+// sum of even nos in list
+list1=[1,4,8,2,7,1]
+sum=0
+for i in list1:
+    if i%2==0:
+      sum=sum+i
+print("sum of even nos=",sum)
+
+output
+sum of even nos= 14
