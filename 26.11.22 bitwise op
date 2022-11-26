@@ -1,0 +1,15 @@
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+bit_and=a&b
+bit_or=a|b
+bit_xor=a^b
+print("bitwise and=",bit_and)
+print("bitwise or=",bit_or)
+print("bitwise xor=",bit_xor)
+
+outout
+enter number:6
+enter number:5
+bitwise and= 4
+bitwise or= 7
+bitwise xor= 3
