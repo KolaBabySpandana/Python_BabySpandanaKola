@@ -1,0 +1,25 @@
+// bitwsise right shift
+a=int(input('enter number:'))
+print('1st right shift=',a>>1)
+print('2nd right shift=',a>>2) 
+print('3rd right shift=',a>>3)
+print('4th right shift=',a>>4)
+print('5th right shift=',a>>5)
+print('6th right shift=',a>>6)
+print('7th right shift=',a>>7)
+print('8th right shift=',a>>8)
+print('9th right shift=',a>>9)
+print('10th right shift=',a>>10)
+
+output
+enter number:14
+1st right shift= 7
+2nd right shift= 3
+3rd right shift= 1
+4th right shift= 0
+5th right shift= 0
+6th right shift= 0
+7th right shift= 0
+8th right shift= 0
+9th right shift= 0
+10th right shift= 0
