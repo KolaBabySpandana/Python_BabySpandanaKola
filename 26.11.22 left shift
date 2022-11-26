@@ -1,0 +1,25 @@
+** bitwise left shift **
+a=int(input('enter number:'))
+print('1st left shift=',a<<1)
+print('2nd left shift=',a<<2)
+print('3rd left shift=',a<<3)
+print('4th left shift=',a<<4)
+print('5th left shift=',a<<5)
+print('6th left shift=',a<<6)
+print('7th left shift=',a<<7)
+print('8th left shift=',a<<8)
+print('9th left shift=',a<<9)
+print('10th left shift=',a<<10)
+
+output
+enter number:14
+1st left shift= 28
+2nd left shift= 56
+3rd left shift= 112
+4th left shift= 224
+5th left shift= 448
+6th left shift= 896
+7th left shift= 1792
+8th left shift= 3584
+9th left shift= 7168
+10th left shift= 14336
