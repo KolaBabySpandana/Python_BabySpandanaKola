@@ -1,0 +1,24 @@
+pin=4856
+amt=50000
+a_pin=int(input("enter your pin :"))
+if pin==a_pin:
+    print("Transaction in progress")
+    a=int(input("Enter amount:"))
+    if a<amt:
+        print("transcation possible")
+        bal=amt-a
+        print("Amount debited:",a)
+        print("Remaining balance:",bal)
+    else:
+        print("transaction not possible ")
+else:
+    print("Wrong pin!try again!!")
+    
+    
+output:
+enter your pin :4856
+Transaction in progress
+Enter amount:4000
+transcation possible
+Amount debited: 4000
+Remaining balance: 46000
