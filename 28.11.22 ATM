@@ -1,0 +1,15 @@
+amt=50000
+a=int(input("enter amount:"))
+if a<amt:
+    print("transcation possible")
+    bal=amt-a
+    print("Amount debited:",a)
+    print("Remaining balance:",bal)
+else:
+    print("transaction not possible ")
+    
+ output   
+enter amount:6000
+transcation possible
+Amount debited: 6000
+Remaining balance: 44000
