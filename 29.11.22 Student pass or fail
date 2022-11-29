@@ -1,0 +1,19 @@
+no=int(input("student number :"))
+name=input("student name :")
+group=input("group name :")
+s1=int(input("enter s1 marks:"))
+s2=int(input("enter s2 marks:"))
+s3=int(input("enter s3 marks:"))
+if s1>=35 and s2>=35 and s3>=35:
+     print("Student Pass")
+else:
+    print("Student Fail")
+    
+output
+student number :78
+student name :spandana
+group name :mecs
+enter s1 marks:67
+enter s2 marks:89
+enter s3 marks:97
+Student Pass
