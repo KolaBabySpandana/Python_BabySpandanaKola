@@ -1,0 +1,29 @@
+empo=int(input("employee number:"))
+empname=input('employee name:')
+empdesig=input('employee designistion:')
+ba=int(input('Basic salary:'))
+da=int(input('Daily allowance:'))
+ta=int(input('Travelling allowance:'))
+hra=int(input('House rentel allowace:'))
+net=ba+da+ta+hra
+if net>100000:
+    tax=net*10/100
+elif net>50000:
+    tax=net*7/100
+elif net>40000:
+    tax=net*4/100
+elif net>20000:
+    tax=net*2/100
+else:
+    tax=0
+print("Employee tax=",tax)
+
+output
+employee number:64
+employee name:Vishu
+employee designistion:Stock sec
+Basic salary:60000
+Daily allowance:20000
+Travelling allowance:10000
+House rentel allowace:10000
+Employee tax= 7000.0
