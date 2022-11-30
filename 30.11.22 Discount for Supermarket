@@ -1,0 +1,58 @@
+cname=input("enter customer name:")
+cphno=int(input("enter customer phone no:"))
+cadd=input("enter customer address:")
+soap=100
+shampoo=350
+chocolate=100
+milkshake=150
+chip=100
+soq=int(input("enter no of soaps:"))
+shq=int(input("enter no of shampoos:"))
+chq=int(input("enter no of chocolates:"))
+miq=int(input("enter no of milkshakes:"))
+ciq=int(input("enter no of chip packets:"))
+bill=(soap*soq)+(shampoo*shq)+(chocolate*chq)+(milkshake*miq)+(chip*ciq)
+if bill>3000:
+    tax=bill*5/100
+elif bill>2000:
+    tax=bill*7/100
+elif bill>1000:
+    tax=bill*10/100
+elif bill>500:
+    tax=bill*15/100
+else:
+    tax=bill+100
+bill=tax+bill
+print("customer name:",cname)
+print("customer phone no:",cphno)
+print("customer address:",cadd)
+print("Tax=",tax)
+print("Total bill=",bill)
+coup=input("enter coupon:")
+if coup=="DIWALI":
+    if bill>=5000:
+       dis=bill*10/100
+    if bill>=3000:
+       dis=bill*6/100
+    if bill>=1000:
+       dis=bill*4/100
+else:
+  dis=0
+print("Bill after discout:",bill-dis)
+
+output
+enter customer name:Aron
+enter customer phone no:465473646
+enter customer address:Japan
+enter no of soaps:5
+enter no of shampoos:2
+enter no of chocolates:10
+enter no of milkshakes:6
+enter no of chip packets:8
+customer name: Aron
+customer phone no: 465473646
+customer address: Japan
+Tax= 195.0
+Total bill= 4095.0
+enter coupon:DIWALI
+Bill after discout: 3931.2
