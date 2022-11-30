@@ -1,0 +1,24 @@
+add=input("addres:")
+no=int(input("door no:"))
+ele_no=int(input("electricity no:"))
+unit=float(input("no of units:"))
+if unit<=30:
+    unit=unit*1.95+25
+if unit<=75:
+    unit=unit*3.00+30
+if unit<=125:
+    unit=unit*4.50+45
+if unit<=225:
+    unit=unit*6.00+50
+if unit<=400:
+    unit=unit*8.75+55
+if unit>400:
+    unit=unit*9.75+50
+print("current bill:",unit)
+
+output
+addres:kalapureddy street
+door no:87
+electricity no:678575
+no of units:120
+current bill: 5753.75
