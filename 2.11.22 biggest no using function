@@ -1,0 +1,33 @@
+//method 1
+def myfun(n,m):
+    if n>m:
+        print("n is big")
+    else:
+        print("m is big")
+n=int(input())
+m=int(input())
+myfun(n,m)
+
+
+//method 2
+def myfun(n,m):
+    if n>m:
+        print("n is big")
+    else:
+        print("m is big")
+n=int(input())
+m=int(input())
+print(myfun(n,m))
+
+//method 3
+def myfun(n,m):
+    if n>m:
+        return True
+    else:
+        return False
+n=int(input())
+m=int(input())
+if myfun(n,m):
+    print("n is big")
+else:
+    print("m is big")
