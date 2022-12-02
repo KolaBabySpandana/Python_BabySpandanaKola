@@ -1,0 +1,29 @@
+// method 1
+def vote(n):
+    if n>=18:
+        print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+n=int(input())
+vote(n)
+
+// method 2
+def vote(n):
+    if n>=18:
+        print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+n=int(input())
+print(vote(n))
+
+// method 3
+def vote(n):
+    if n>=18:
+        return True
+    else:
+        return False
+n=int(input())
+if vote(n):
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
