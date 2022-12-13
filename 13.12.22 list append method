@@ -1,0 +1,9 @@
+ap=[]
+n=int(input())
+for i in range(n):
+    x=input()
+    ap.append(x)
+print(ap)
+    
+output
+['east godavari','krishna','ntr']
