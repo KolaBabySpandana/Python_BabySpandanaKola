@@ -3,7 +3,14 @@ n=int(input())
 for i in range(n):
     x=input()
     ap.append(x)
+ap.sort()
 print(ap)
     
+input
+3
+krishna
+ntr
+east godavari
+
 output
 ['east godavari','krishna','ntr']
