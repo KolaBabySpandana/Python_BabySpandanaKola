@@ -1,0 +1,17 @@
+n=int(input())
+d=list(map(int,input().split()))
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if d[i]<d[j]:
+            t=d[i]
+            d[i]=d[j]
+            d[j]=t
+print(d)
+for i in range(n):
+    print(d[i],end=" ")
+    
+output
+4
+23 45 67 89
+[89, 67, 45,23]
+89 67 45 23
