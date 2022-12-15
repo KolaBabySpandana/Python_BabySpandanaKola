@@ -1,0 +1,19 @@
+n=int(input())
+ol=list(map(int,input().split()))
+el=[]
+dl=[]
+for i in range(0,n):
+    if ol[i]%2==0:
+        el.append(ol[i])
+    else:
+        dl.append(ol[i])
+l=el+dl
+print(l)
+for i in range(n):
+    print(l[i],end=" ")
+    
+output
+5
+34 67 89 60 45
+[34, 60, 67, 89, 45]
+34 60 67 89 45
