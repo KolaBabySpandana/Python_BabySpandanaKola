@@ -1,0 +1,19 @@
+n=int(input())
+ol=list(map(int,input().split()))
+nl=[]
+pl=[]
+for i in range(0,n):
+    if ol[i]>=0:
+        pl.append(ol[i])
+    else:
+        nl.append(ol[i])
+l=nl+pl
+print(l)
+for i in range(n):
+    print(l[i],end=" ")
+
+output
+6
+8 -7 6 -1 10 -6
+[-7, -1, -6, 8, 6, 10]
+-7 -1 -6 8 6 10
