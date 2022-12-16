@@ -1,0 +1,11 @@
+s=input()
+l=len(s)
+c=0
+for i in range(0,l):
+    if s[i].isdigit()==1:
+        c=c+1
+print("no of digits=",c)
+
+output
+Spandana6
+no of digits=1
