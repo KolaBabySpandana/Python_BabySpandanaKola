@@ -1,0 +1,11 @@
+s=input()
+l=len(s)
+c=0
+for i in range(0,l):
+    if s[i].isalpha()==1:
+        c=c+1
+print("no of characters=",c)
+
+output
+surya latha
+no of characters=10
