@@ -1,0 +1,13 @@
+s=input()
+l=len(s)
+print("lenght=",l)
+print(s.upper())
+print(s.lower())
+print(s.swapcase())
+
+output
+Surya Latha
+length=11
+SURYA LATHA
+surya latha
+sURYA lATHA
