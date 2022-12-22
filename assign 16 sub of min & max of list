@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+maxi=l[0]
+mini=l[0]
+for i in range(n):
+    if maxi<l[i]:
+        maxi=l[i]
+    else:
+        mini=l[i]
+print("subtraction of maxi and mini=",maxi-mini)
+
+output
+4
+2 3 4 5
+subtraction of maxi and mini= 3
