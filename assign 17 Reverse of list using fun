@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+s=set(l)
+x=list(s)
+x.sort(reverse=True)
+print(x)
+
+output
+4
+45 67 89 90
+[90, 89, 67, 45]
