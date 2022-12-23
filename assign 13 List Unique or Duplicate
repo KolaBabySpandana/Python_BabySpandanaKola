@@ -1,0 +1,16 @@
+n=int(input())
+f=list(map(int,input().split()))
+d=0
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if f[i]==f[j]:
+            d=d+1
+if d==0:
+    print("UNIQUE")
+else:
+    print("DUPLICATE")
+    
+output
+4
+12 34 34 56
+DUPLICATE
