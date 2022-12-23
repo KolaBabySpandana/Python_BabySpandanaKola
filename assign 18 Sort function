@@ -1,0 +1,7 @@
+l=list(map(int,input().split()))
+l.sort()
+print(l)
+
+output
+90 87 65 43 21
+[21, 43, 65, 87, 90]
