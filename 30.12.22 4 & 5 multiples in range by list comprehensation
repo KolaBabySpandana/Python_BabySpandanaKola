@@ -1,0 +1,7 @@
+n=int(input())
+l=[i for i in range(n) if i%4==0 or i%5==0]
+print(l)
+
+output
+30
+[0, 4, 5, 8, 10, 12, 15, 16, 20, 24, 25, 28]
