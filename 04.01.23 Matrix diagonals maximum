@@ -1,0 +1,31 @@
+n=int(input())
+m=[]
+for i in range(n):
+    l=[]
+    for j in range(n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+maxi=m[0][0]
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            if(m[i][j]>maxi):
+                maxi=m[i][j]
+        if i+j==n-1:
+            if(m[i][j]>maxi):
+                maxi=m[i][j]
+print("maximum=",maxi)
+
+output
+3
+100
+344
+566
+207
+54
+750
+346
+121
+245
+maximum= 566
