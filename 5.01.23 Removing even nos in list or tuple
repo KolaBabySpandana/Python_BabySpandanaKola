@@ -1,12 +1,12 @@
 n=int(input())
 m=list(map(int,input().split()))
 l=[]
-for i in range(n):
-    if m[i]%2==0:
+for i in range(0,n):
+    if m[i]%2!=0:
         l.append(m[i])
 print(l)
 
 output
-6
-45 67 88 900 12 56
-[88, 900, 12, 56]
+3
+10 11 12
+[11]
