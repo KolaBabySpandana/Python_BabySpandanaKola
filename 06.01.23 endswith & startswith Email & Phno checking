@@ -1,0 +1,19 @@
+email=input("email:")
+phno=input("phone no:")
+c=0
+if email.endswith("@gmail.com") or email.endswith("@yahoo.com") or email.endswith("@adc.aditya.ac.in"):
+    c=c+1
+    if(len(phno)==10):
+        c=c+1
+        if phno.startswith("9") or phno.startswith("8") or phno.startswith("7") or phno.startswith("6"):
+            c=c+1
+            
+if c==3:
+    print("Registration Succesfull")
+else:
+    print("check your details")
+
+output
+email:baby@yahoo.com
+phone no:9000992589
+Registration succesfull
