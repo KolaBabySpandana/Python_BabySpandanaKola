@@ -1,0 +1,35 @@
+=int(input())
+m=[]
+for i in range (n):
+    l=[]
+    for j in range(n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+k=int(input())
+for i in range(n):
+    for j in range(n):
+        if i+j==n-1:
+            m[i][j]=k
+        else:
+            m[i][j]=0
+for i in range(n):
+    for j in range(n):
+        print(m[i][j],end=" ")
+    print()
+    
+output
+3
+23
+45
+67
+89
+54
+76
+4512
+33
+88
+7
+0 0 7 
+0 7 0 
+7 0 0 
