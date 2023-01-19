@@ -1,0 +1,28 @@
+def bracket(s):
+    while(True):
+        if '[]'in s:
+            s=s.replace('[]','')
+        elif '()' in s:
+            s=s.replace('()','')
+        elif '{}' in s:
+            s=s.replace('{}','')
+        else:
+            return not s
+
+n=int(input())
+for i in range (0,n):
+    s=input()
+    if bracket(s):
+        print("YES")
+    else:
+        print("NO")
+        
+ output
+ 3
+{[()]}
+{[(])}
+{{[[(())]]}}
+
+YES
+NO
+YES
