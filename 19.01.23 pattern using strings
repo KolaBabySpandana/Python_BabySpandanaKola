@@ -1,0 +1,14 @@
+s=input()
+n=len(s)
+for i in range(0,n):
+    print(s[0:n-i])
+print()
+
+output
+aditya
+aditya
+adity
+adit
+adi
+ad
+a
